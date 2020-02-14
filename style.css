@@ -1,0 +1,55 @@
+body {
+	background-color: rgb(35, 35, 35);
+	color: white;
+	font-family: Courier;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	color: rgb(180,180,180);
+}
+
+h2 {
+	font-size: 30px;
+	color: rgb(192,192,192);
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 3px groove rgb(175,238,238);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: rgb(50, 50, 50);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,0.1)
+	border-radius: 5px;
+	margin: 20px 0px;
+	border-radius: 10px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(175,238,238);
+	font-size: 60px;
+}
+
+a:hover {
+	color: rgb(0,206,209);
+}
